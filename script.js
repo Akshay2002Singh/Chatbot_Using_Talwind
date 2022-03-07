@@ -29,7 +29,7 @@ var bot_reply = {
     'Other': [["Visit to Our Contact Us Page","contact.xyz"],['Thanks',"Continue"]] };
 
     var loder = `<div class="self-start ">
-    <img class="w-20 my-1" src="/assets/output-onlinegiftools.gif" alt="text loding">
+    <img class="w-20 my-1" src="./assets/output-onlinegiftools.gif" alt="text loding">
 </div>`
 
 function get_element(event) {
