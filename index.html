@@ -26,23 +26,29 @@
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
 
   <div>
-    <!-- Chatbot -->
-    <div class="fixed bottom-3 right-5 bg-black rounded-full border-2 p-1 " onclick="toggle_chatbot()" id="chatbot_icon">
-        <img src="https://img.icons8.com/fluency/48/000000/chatbot.png"/>      
-      </div>
+    <!-- Chatbot Start -->
+    <div class="fixed bottom-3 right-5 bg-black rounded-full border-2 p-1 " onclick="toggle_chatbot()"
+      id="chatbot_icon">
+      <img src="https://img.icons8.com/fluency/48/000000/chatbot.png" />
+    </div>
     <div class="fixed hidden bottom-3 right-5" id="chatbot_box">
       <div class="w-72 border-3 border-solid border-black flex-col">
         <div class="bg-black flex items-center justify-between">
           <div class="px-2 py-1 text-left text-2xl font-bold italic font-serif">Elite Bot
           </div>
-          <img src="./assets/minimize-screen.png"/ class="w-8 h-8 mr-1" onclick="toggle_chatbot()">
+          <img src="./assets/minimize-screen.png" / class="w-8 h-8 mr-1" onclick="toggle_chatbot()">
         </div>
         <div class="overflow-y-scroll pt-1 h-72 scroll-smooth bg-purple-300 flex flex-col" id="bot_chat_box">
           <div class="self-start">
             <p
               class="pr-1 pl-2 m-1 mr-16 border inline-block  text-indigo-900 text-lg font-bold italic font-serif bg-purple-200 rounded-r-lg text-justify">
               Hello<img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
-                class="w-6 inline-block">, I am Elite </p>
+                class="w-6 inline-block"></p>
+          </div>
+          <div class="self-start">
+            <p
+              class="pr-1 pl-2 m-1 mr-16 border inline-block  text-indigo-900 text-lg font-bold italic font-serif bg-purple-200 rounded-r-lg text-justify">
+              I am Elite </p>
           </div>
           <div class="flex flex-col">
             <div class="self-end ">
@@ -55,6 +61,7 @@
       </div>
     </div>
   </div>
+  <!-- chatbot over -->
   </div>
 
 
